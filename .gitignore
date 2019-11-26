@@ -1,0 +1,6 @@
+/data
+/env
+/log
+/dns-config
+init-letsencrypt.sh
+**/.DS_Store

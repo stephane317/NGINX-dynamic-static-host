@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "PlutoLight";
+  src: url("../assets/fonts/PlutoLight.eot");
+  src: url("../assets/fonts/PlutoLight.woff") format("woff"), url("../assets/fonts/PlutoLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PlutoMedium";
+  src: url("../assets/fonts/PlutoMedium.eot");
+  src: url("../assets/fonts/PlutoMedium.woff") format("woff"), url("../assets/fonts/PlutoMedium.ttf") format("truetype");
+}
+.footer-bg {
+  background-color: #2E2E2E;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  color: #FFF;
+  left: 0;
+  bottom: 0;
+  width: 85%;
+  margin: auto;
+}
+.footer .wrapper-rs {
+  margin-top: 50px;
+}
+.footer .wrapper-rs .rs {
+  display: flex;
+  align-items: flex-start;
+  margin: 15px 0;
+}
+.footer .wrapper-rs .rs hr {
+  margin: 0 10px;
+  height: 20px;
+}
+.footer .footer-nav {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-nav .footer-nav-bloc {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.footer .footer-nav .footer-nav-bloc .title-nav {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  color: #9A9A9A;
+  margin-bottom: 15px;
+}
+.footer .footer-nav .footer-nav-bloc a {
+  font-size: 12px;
+  color: #FFF;
+  text-decoration: none;
+  line-height: 1.5em;
+}
+.footer .footer-nav .footer-nav-bloc a:hover {
+  text-decoration: underline;
+}
+.footer .txt-footer {
+  font-size: 12px;
+  color: #F2F2F2;
+}
+.footer form {
+  margin: 15px 0;
+}
+.footer form input {
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 25px 0 0 25px;
+  outline: none;
+  font-size: 12px;
+}
+.footer form button {
+  margin-left: -5px;
+  padding: 11px 12px 12px 12px;
+  font-weight: 500;
+  font-size: 13.5px;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  -moz-border-radius: 0 25px 25px 0;
+  -webkit-border-radius: 0 25px 25px 0;
+  border-radius: 0 25px 25px 0;
+  background-color: #FF7100;
+  background-image: linear-gradient(90deg, #FF7100 0%, #FF7100 55%, #FFC000 80%);
+  background-position: 0 0;
+  background-size: 200% 200%;
+  cursor: pointer;
+  outline: none;
+}
+.footer form button:hover {
+  transition: 0.3s all ease;
+  background-position: 50% 0;
+}
+.footer hr {
+  border: 0.5px solid #707070;
+}
+.footer .mention-legale {
+  font-size: 14px;
+  color: #707070;
+  padding-bottom: 10px;
+}
+
+.natixis-endossement {
+  width: 95%;
+  margin: 10px auto;
+}
+.natixis-endossement .natixis-txt {
+  display: flex;
+  flex-direction: column;
+}
+.natixis-endossement .natixis-txt p {
+  font-size: 12px !important;
+  color: #581d74 !important;
+}
+.natixis-endossement .natixis-txt p a {
+  font-size: 12px !important;
+  text-decoration: none;
+  color: inherit;
+}
+.natixis-endossement .natixis-txt .natixis-med, .natixis-endossement .natixis-txt a {
+  font-family: "PlutoMedium", sans-serif !important;
+  text-decoration: none;
+  width: 55%;
+}
+.natixis-endossement .natixis-txt .natixis-med a:hover, .natixis-endossement .natixis-txt a a:hover {
+  text-decoration: underline;
+}
+.natixis-endossement .natixis-txt .natixis-light {
+  width: 50%;
+  font-family: "PlutoLight", sans-serif !important;
+}
+.natixis-endossement .natixis-logo {
+  float: right;
+  margin-top: -50px;
+  width: 108px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-flex {
+    flex-direction: row;
+  }
+
+  .footer .footer-nav {
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .footer .footer-nav .footer-nav-bloc {
+    margin-left: 30px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footer .footer-nav .footer-nav-bloc {
+    margin-left: 130px;
+  }
+  .footer .footer-nav .footer-nav-bloc a {
+    font-size: 14px;
+  }
+
+  .natixis-endossement .natixis-txt {
+    flex-direction: row;
+  }
+  .natixis-endossement .natixis-txt .natixis-med, .natixis-endossement .natixis-txt a {
+    width: auto;
+  }
+  .natixis-endossement .natixis-txt .natixis-light {
+    margin-left: 25px;
+    width: auto;
+  }
+  .natixis-endossement .natixis-logo {
+    margin-top: -40px;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

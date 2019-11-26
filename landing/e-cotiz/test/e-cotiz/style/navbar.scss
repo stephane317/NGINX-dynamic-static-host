@@ -1,0 +1,106 @@
+@import "./variables.scss";
+
+.navbar {
+  overflow: hidden;
+  background-color: #FFF;
+  // position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  a:first-child {
+    padding: 20px;
+  }
+  a {
+    float: left;
+    display: block;
+    color: $black;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  a:hover {
+    transition: $animate;
+    color: $orange;
+  }
+  .icon {
+    display: none;
+  }
+  .login {
+    float: right;
+    .adherents {
+      padding: 10px;
+      margin: 20px 10px;
+      border: 2px solid $blue;
+      border-radius: 5px;
+      color: $blue;
+      text-transform: uppercase;
+    }
+    .adherents:hover {
+      transition: $animate;
+      border-radius: 20px 0px 20px 20px;
+    }
+    .inscription {
+      padding: 10px;
+      margin: 20px 10px;
+      background-color: $blue;
+      border: 2px solid $blue;
+      border-radius: 5px;
+      text-transform: uppercase;
+      color: #FFF;
+    }
+    .inscription:hover {
+      transition: $animate;
+      border-radius: 20px 0px 20px 20px;
+    }
+    .connexion {
+      padding: 10px;
+      margin: 20px 10px;
+      background-color: $orange;
+      border: 2px solid $orange;
+      border-radius: 5px;
+      text-transform: uppercase;
+      color: #FFF;
+    }
+    .connexion:hover {
+      transition: $animate;
+      border-radius: 20px 0px 20px 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 1165px) {
+  .navbar {
+    a:not(:first-child) {
+      display: none;
+    }
+    .login {
+      display: none;
+    }
+    a.icon {
+      float: right;
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 1165px) {
+  .navbar.responsive {
+    position: relative;
+    .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .login {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+}

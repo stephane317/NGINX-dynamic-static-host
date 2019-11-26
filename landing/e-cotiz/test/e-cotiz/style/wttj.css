@@ -1,0 +1,112 @@
+.welcomekit-jobs-list {
+ list-style: none;
+}
+
+.welcomekit-jobs-list-item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.welcomekit-jobs-list-item-link {
+  position: relative !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 30px 5px !important;
+  border-bottom: 1px solid #eee !important;
+  text-decoration: none !important;
+  transition: all 0.2s !important;
+}
+.welcomekit-jobs-list-item-link:after {
+  position: absolute !important;
+  top: 50% !important;
+  right: 30px !important;
+  width: 20px !important;
+  height: 20px !important;
+  margin-top: -10px !important;
+  content: ' ' !important;
+  border-top: 1px solid #ddd !important;
+  border-right: 1px solid #ddd !important;
+  transform: rotate(45deg) !important;
+  transition: all 0.2s !important;
+}
+.welcomekit-jobs-list-item-link:hover {
+  background: #f5f5f5 !important;
+  border-bottom-color: #ddd !important;
+}
+.welcomekit-jobs-list-item-link:hover:after {
+  right: 20px;
+  border-top-color: #aaa !important;
+  border-right-color: #aaa !important;
+}
+.welcomekit-job-name {
+  margin: 0 0 10px 0 !important;
+  padding: 0 !important;
+  font-weight: 500 !important;
+  font-size: 19px !important;
+  line-height: 20px !important;
+}
+.welcomekit-job-infos {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.welcomekit-job-infos > li {
+  position: relative !important;
+  display: inline-block !important;
+  margin: 0 34px 0 0 !important;
+  color: #aaa !important;
+}
+.welcomekit-job-infos > li:before {
+  position: absolute !important;
+  top: 6px !important;
+  left: -20px !important;
+  content: ' ' !important;
+  display: block !important;
+  height: 6px !important;
+  width: 6px !important;
+  background: #ddd !important;
+  border-radius: 50% !important;
+}
+.welcomekit-job-infos > li:first-child:before {
+  display: none !important;
+}
+.welcomekit-job-infos > li.welcomekit-job-description {
+  display: block !important;
+  margin: 10px 0 0 0 !important;
+  padding: 10px 20px !important;
+  border-left: 2px solid #eee !important;
+}
+.welcomekit-job-infos > li.welcomekit-job-description p,
+.welcomekit-job-infos > li.welcomekit-job-description ul {
+  margin: 0 !important;
+  padding: 0 0 10px 0 !important;
+  color: #bbb !important;
+}
+.welcomekit-job-infos > li.welcomekit-job-description ul li {
+  border-left: 1px solid #eee !important;
+  padding-left: 10px !important;
+  margin-bottom: 10px !important;
+}
+.welcomekit-job-infos > li.welcomekit-job-description pre {
+  border-left: 1px solid #eee !important;
+  padding-left: 10px !important;
+  overflow: auto !important;
+}
+.welcomekit-job-infos > li.welcomekit-job-description:before {
+  display: none !important;
+}
+.welcomekit-office-city,
+.welcomekit-department-name {
+  display: block !important;
+  padding: 15px !important;
+  background: #eee !important;
+  border-top: 1px solid #e0e0e0 !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+  font-weight: 500 !important;
+  font-size: 17px;
+  line-height: 18px !important;
+  text-transform: uppercase !important;
+}
+.welcomekit-warning {
+  display: block !important;
+  padding: 50px 0 !important;
+  text-align: center !important;
+}

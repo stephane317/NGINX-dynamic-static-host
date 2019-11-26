@@ -1,0 +1,17 @@
+{
+  "name": "poc-landing",
+  "version": "1.0.0",
+  "description": "The aims of this project is to deploye automatically, the whole landing page without to change configuration",
+  "main": "ecosystem.config.js",
+  "scripts": {
+    "start": "",
+    "deploy": "pm2 deploy production",
+    "dev": "http-server ./landing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.e-cotiz.io:snimer/poc-landing.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
